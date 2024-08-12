@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+.main>p{
+    display: flex;
+    justify-content: center;
+}
+
+.inputs{
+   margin: 5px;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+
+.sub-container>input{
+    background-color:rgb(255, 255, 255);
+    border-radius: 2rem;
+
+}
+
+.sub-container>button{
+    background-color: rgb(255, 232, 79);
+    font-size: medium;
+    border-style: double;
+    width: 70px;
+    height: 30px;
+    border-radius: .5rem;
+    color:rgb(217, 6, 6);
+}
